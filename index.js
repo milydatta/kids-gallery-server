@@ -35,7 +35,7 @@ client.connect(err => {
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World! It is kids gallery server.')
 })
 
 app.listen(process.env.PORT || port)
